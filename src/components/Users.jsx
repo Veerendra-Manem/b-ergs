@@ -10,7 +10,7 @@ function Users() {
 
   return (
     <>
-      <h1>Users</h1>
+      <h1>!!! Sign Ups !!!</h1>
       <table>
         <thead>
           <tr>
@@ -21,9 +21,10 @@ function Users() {
             <th>Reach</th>
             <th>Emerge</th>
             <th>WFRG</th>
-            <th>MCRG</th>
+            <th>Embrace</th>
             <th>BBTO</th>
             <th>HKEN</th>
+            <th>Support</th>
             <th>Total</th>
           </tr>
         </thead>
@@ -41,8 +42,9 @@ function Users() {
                 <td>{user.ERG6? 'YES' : 'NO'}</td>
                 <td>{user.ERG7? 'YES' : 'NO'}</td>
                 <td>{user.ERG8? 'YES' : 'NO'}</td>
+                <td>{user.ERG9? 'YES' : 'NO'}</td>
                 <td>{(user.ERG1? 1 : 0)+(user.ERG2? 1 : 0)+(user.ERG3? 1 : 0)+(user.ERG4? 1 : 0)+
-                (user.ERG5? 1 : 0)+(user.ERG6? 1 : 0)+(user.ERG7? 1 : 0)+(user.ERG8? 1 : 0)}</td>
+                (user.ERG5? 1 : 0)+(user.ERG6? 1 : 0)+(user.ERG7? 1 : 0)+(user.ERG8? 1 : 0)+(user.ERG9? 1 : 0)}</td>
               </tr>
             );
           })}
